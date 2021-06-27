@@ -5,9 +5,17 @@
          <link href="form.css"
         type="text/css"
         rel="stylesheet">
+        <script src="form.js" type="text/javascript"></script>
         <title>Парсер</title>
     </head>
     <body>
+        
+        <div class="title">
+            <h1>Для чего эта форма?</h1>
+            <h2>Это - скрипт, при запуске которого будет парситься весь реестр медицинских изделий, <br>получаемый из <a href="https://roszdravnadzor.gov.ru/services/misearch">реестра Федеральной службы по надзору в сфере здравоохранения</a></h2>
+        </div>
+        
+
         <form method="POST" action="form.html" class="decor">
             <div class="form-left-decoration"></div>
             <div class="form-right-decoration"></div>
@@ -15,7 +23,7 @@
             <div class="form-inner">
             <h3>Выберите дату регистрации</h3>
             <label for="date-from"><h4>с</h4></label>
-            <input type="date" class="registration_date-from" name="date-from">
+            <input type="date" class="registration_date-from" name="date-from" value="2000-01-01">
             <h4>по</h4>
             <input type="date" class="registration_date-to" name="date-to">
             <input type="submit" value="Дайте JSON">

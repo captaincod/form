@@ -88,6 +88,9 @@ body {
    border-radius: 20px;
    font-family: 'Roboto', sans-serif;
 }
+.form-inner input[type="data"] {
+   height: 42px;
+}
 .form-inner input[type="submit"] {
    margin-top: 30px;
    background: #f69a73;
@@ -134,5 +137,29 @@ body {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    font-size: 16px;
+   color: #707981;
+}
+
+.title{
+   padding: 10pt 0pt 10pt 50pt;
+   margin: 10pt;
+   background: white;
+   border-radius: 30px;
+}
+h1{
+   font-size: 20pt;
+   font-family: 'Roboto', sans-serif;
+   color: #d87d56;
+}
+h2{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   color: #707981;
+}
+a:link, a:active{
+   color: #454545;
+}
+a:visited{
    color: #707981;
 }
